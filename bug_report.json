@@ -1,5 +1,14 @@
 {
-  "name" : "issue on shopping cart",
-  "priority" : "major",
-  "description" : "faced issue in shopping cart during order"
+  "id" : "1",
+  "title" : "issue on shopping cart",
+  "steps to reproduce" : {
+     "1" : "add item in cart" ,
+     "2" : "click on Buy button"
+  },
+  "expected result" : "Move to order page",
+  "actual result" : "Buy button does not active",
+  "reporter" : "Bogdanov A",
+  "severity" : "high",
+  "priority" : "high",
+  "environment" : "Crome, Mac OS"
 }
